@@ -91,15 +91,19 @@
               </fieldset>
           <fieldset>
                 <br> <input type="radio" name = "lenguajep" value="PROGRAMACION 3" checked="">PROGRAMACION 3<br>
-                 <br> <input type="radio" name = "lenguajep" value="PROGRAMACION 3" checked="">LABORATORIO 3<br>
-
+                 <br> <input type="radio" name = "lenguajep" yvalue="PROGRAMACION 3" checked="">LABORATORIO 3<br>
+                <br>
+                 <label>SELECCIONE UNA FOTO</label> 
+                 <br><br><input type="file" name="foto" ></input>
+                 
                </fieldset>
              
               <br>
              <br>
             <p class="contact"><label for="phone">TELEFONO</label></p> 
             <input id="phone" name="phone" placeholder="NUMERO DE TELEFONO" required="" type="text"> <br>
-            <input class="buttom" name="submit" id="submit" tabindex="5" value="REGISTRO" type="submit" onclick="comparar(x1,x2)"> 	 
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="REGISTRO" type="submit" onclick="comparar(x1,x2)"> 	&nbsp; &nbsp;&nbsp;&nbsp; <input class="buttom" name="reset" id ="reset" tabindex="5" type="reset"></input>
+
    </form> 
   </div>       
 </div>
